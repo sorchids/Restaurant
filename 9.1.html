@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--we are using internal css for enhancement-->
+<style>
+body {
+font-family: 'Raleway', sans-serif;
+text-align: center;
+justify-content: space-around;
+height: 100%;
+align-items: center;
+background: linear-gradient(#E0B4F1, white, #E5C6F1);
+/*This will give background color in gradient effect*/
+
+}
+.form1{
+          background-color:blue;
+      }
+.book{
+       display:flex;
+       justify-content:center;
+     }
+td{
+     background-color:yellow;
+  }
+table{
+          border:0px;
+      }
+#Button
+     {
+    font-size=20px;
+    background-color:grey; 
+     }
+</style>
+</head>
+<body align="center">
+<div>
+	<h1 style="text-align:center;"><u>Mandarin</u></h1>
+	<img src="Food1.jpg" alt="Logo" width="260" height="160">
+	<h2> Mandarin Oak(Restaurant)</h2>
+	<p>Serves Italian and Chinese <br>
+	 Have many Outlets across India<br>
+	</p>
+	<h1> Gallery </h1>
+	<img src="Food2.jpg" alt="FoodType" width="260" height="160">
+	<img src="Food3.jpg" alt="FoodType" width="260" height="160">
+	<img src="Food4.jpg" alt="FoodType" width="260" height="160">
+</div>
+<div class="book">
+     <form class="form1">
+         <table>
+            <tr><td colspan=2><h1> Book Table</h1><td><tr>
+            <tr><td>Name:</td><td><input type="Text"></td></tr>
+            <tr><td>Contact: <td><input type="Text"></td></tr>
+            <tr><td>Number of people: </td><td><input type="number"></td></tr>
+            <tr><td>Time:</td> <td><input type="number"></td></tr>
+            <tr><td colspan=2><input id="Button" type="button" value="Book"></td></tr>
+         </table>
+     </form>
+</div>
+</body>
+</html>
